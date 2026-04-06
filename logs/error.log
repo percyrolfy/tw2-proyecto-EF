@@ -1,0 +1,1606 @@
+2026-04-01 12:06:41 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::display()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'display',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 172.25.0.210
+2026-04-01 12:07:45 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /home/live/cakephp/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 358
+Stack Trace:
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:165
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://172.25.0.210:8765/users/add
+Client IP: 172.25.0.210
+2026-04-02 02:00:11 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+2026-04-02 02:00:27 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+2026-04-02 02:02:46 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2026-04-02 02:03:36 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Client IP: 172.25.0.210
+2026-04-02 02:14:30 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+2026-04-02 02:25:59 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+2026-04-02 02:43:47 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+2026-04-02 11:55:07 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 203
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'percy\'@\'10.89.3.2\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- CORE/src/Database/Driver.php:192
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:201
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.154
+2026-04-02 11:56:09 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 203
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'percy\'@\'10.89.3.2\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- CORE/src/Database/Driver.php:192
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:201
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-02 12:00:07 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 203
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'percy\'@\'10.89.3.2\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- CORE/src/Database/Driver.php:192
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:201
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-02 12:01:21 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 203
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'percy\'@\'10.89.3.2\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- CORE/src/Database/Driver.php:192
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:201
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.154
+2026-04-02 12:01:36 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 203
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'percy\'@\'10.89.3.2\' (using password: YES)',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'percy'@'10.89.3.2' (using password: YES) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- CORE/src/Database/Driver.php:192
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:201
+- CORE/src/Database/Driver/Mysql.php:161
+- CORE/src/Database/Schema/SchemaDialect.php:60
+- CORE/src/Database/Driver/Mysql.php:207
+- CORE/src/Database/Schema/Collection.php:97
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/UsersController.php:54
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-03 14:53:21 error: [Cake\Database\Exception\DatabaseException] Could not describe columns on `bicicletas` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchemaDialect.php on line 127
+Stack Trace:
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/BicicletasController.php:20
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] [default] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.bicicletas' doesn't exist
+Query: SHOW FULL COLUMNS FROM `bicicletas` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/BicicletasController.php:20
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.bicicletas' doesn't exist in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/BicicletasController.php:20
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /bicicletas
+Referer URL: http://127.0.0.1:8765/
+Client IP: 127.0.0.1
+2026-04-03 15:21:49 error: [Cake\Database\Exception\QueryException] [default] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Query: INSERT INTO bicicletas (tipo, material, tamaño_rueda, modelo, precio) VALUES ('BICICLETA MONTAÑERA', 'ALUMINIO', 27, 'VENZO-XL-511', '2500') in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/BicicletasController.php:49
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/BicicletasController.php:49
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /bicicletas/add
+Referer URL: http://127.0.0.1:8765/bicicletas/add
+Client IP: 127.0.0.1
+2026-04-05 14:30:26 error: [Cake\Database\Exception\DatabaseException] Could not describe columns on `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchemaDialect.php on line 127
+Stack Trace:
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] [default] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist
+Query: SHOW FULL COLUMNS FROM `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 14:30:31 error: [Cake\Database\Exception\DatabaseException] Could not describe columns on `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchemaDialect.php on line 127
+Stack Trace:
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] [default] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist
+Query: SHOW FULL COLUMNS FROM `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/users
+Client IP: 172.25.0.210
+2026-04-05 14:31:27 error: [Cake\Database\Exception\QueryException] [default] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Query: INSERT INTO users (nombre, apellido, correo, created, modified, password, lenguaje, edad) VALUES ('pablo', 'rosales', 'pablo@gmail.com', '2026-04-05 14:31:27', '2026-04-05 14:31:27', '$2y$12$bk5EfRfUOXtFZcxKM38hTe4JmSPUIQG7ETBMTcYzR/wCcYB1FCAGW', 'es', 28) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/UsersController.php:178
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/UsersController.php:178
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://172.25.0.210:8765/users/add
+Client IP: 172.25.0.210
+2026-04-05 14:33:05 error: [Cake\Database\Exception\DatabaseException] Could not describe columns on `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Schema/MysqlSchemaDialect.php on line 127
+Stack Trace:
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [Cake\Database\Exception\QueryException] [default] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist
+Query: SHOW FULL COLUMNS FROM `tasks` in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_ef.tasks' doesn't exist in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver.php:303
+- CORE/src/Database/Schema/MysqlSchemaDialect.php:125
+- CORE/src/Database/Schema/SchemaDialect.php:434
+- CORE/src/Database/Schema/Collection.php:87
+- CORE/src/Database/Schema/CachedCollection.php:107
+- CORE/src/ORM/Table.php:524
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:209
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1747
+- CORE/src/ORM/Table.php:1277
+- APP/Controller/TasksController.php:31
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/users
+Client IP: 172.25.0.210
+2026-04-05 14:37:45 error: [Cake\Database\Exception\QueryException] [default] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Query: INSERT INTO users (nombre, apellido, correo, created, modified, password, lenguaje, edad) VALUES ('pablo', 'rosales', 'pablo@gmail.com', '2026-04-05 14:37:45', '2026-04-05 14:37:45', '$2y$12$9Up2hnpP./SSIGV9dQGuKewPsSORInscJePmQ80RnQ9ZtgpwALLDq', 'es', 28) in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/UsersController.php:178
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/UsersController.php:178
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://172.25.0.210:8765/users/add
+Client IP: 172.25.0.210
+2026-04-05 14:43:08 error: [Cake\Database\Exception\QueryException] [default] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Query: INSERT INTO tasks (user_id, titulo, descripcion, estado, fecha_limite, created, modified) VALUES (4, 'codigo alfa', '<hola mundo>', 'completada', '2026-04-05 08:08:16', '2026-04-05 14:43:08', '2026-04-05 14:43:08') in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Driver.php on line 390
+Stack Trace:
+- CORE/src/Database/Driver.php:366
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/TasksController.php:65
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 144
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:144
+- CORE/src/Database/Driver.php:348
+- CORE/src/Database/Driver/Mysql.php:186
+- CORE/src/Database/Connection.php:301
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:301
+- CORE/src/Database/Query.php:238
+- CORE/src/ORM/Table.php:2178
+- CORE/src/ORM/Table.php:2071
+- CORE/src/ORM/Table.php:1964
+- CORE/src/Database/Connection.php:671
+- CORE/src/ORM/Table.php:1585
+- CORE/src/ORM/Table.php:1963
+- APP/Controller/TasksController.php:65
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks/add
+Referer URL: http://172.25.0.210:8765/tasks/add
+Client IP: 172.25.0.210
+2026-04-05 22:34:56 error: [Cake\Error\FatalErrorException] Fatal Error: Cannot redeclare App\Controller\TasksController::index() in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/TasksController.php on line 42
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:41:17 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:43:10 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:46:42 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:46:45 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:51:55 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:51:56 error: [Cake\Error\FatalErrorException] Fatal Error: Declaration of App\Controller\UsersController::beforeFilter(Cake\Event\EventInterface $event) must be compatible with App\Controller\AppController::beforeFilter(Cake\Event\EventInterface $event): void in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/UsersController.php on line 14
+Stack Trace:
+- CORE/src/Error/ExceptionTrap.php:279
+- [internal]:??
+- [main]:
+
+Request URL: /
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:55:41 error: [ParseError] syntax error, unexpected variable "$this", expecting "function" in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/TasksController.php on line 13
+Stack Trace:
+- ROOT/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- CORE/src/Core/App.php:162
+- CORE/src/Core/App.php:69
+- CORE/src/Controller/ControllerFactory.php:324
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:57:05 error: [ParseError] syntax error, unexpected variable "$this", expecting "function" in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/TasksController.php on line 13
+Stack Trace:
+- ROOT/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- CORE/src/Core/App.php:162
+- CORE/src/Core/App.php:69
+- CORE/src/Controller/ControllerFactory.php:324
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210
+2026-04-05 22:57:08 error: [ParseError] syntax error, unexpected variable "$this", expecting "function" in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/src/Controller/TasksController.php on line 13
+Stack Trace:
+- ROOT/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- CORE/src/Core/App.php:162
+- CORE/src/Core/App.php:69
+- CORE/src/Controller/ControllerFactory.php:324
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- ROOT/webroot/index.php:37
+- [main]:
+
+Request URL: /tasks
+Referer URL: http://172.25.0.210:8765/
+Client IP: 172.25.0.210

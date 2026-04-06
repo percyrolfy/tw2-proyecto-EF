@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: app_ef\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "You must sign in to continue."
+msgstr "Vous devez vous connecter pour continuer."
+
+msgid "Welcome, {0}."
+msgstr "Bienvenue, {0}."
+
+msgid "Invalid email or password."
+msgstr "E-mail ou mot de passe incorrect."
+
+msgid "Your account was created. Please sign in."
+msgstr "Votre compte a été créé. Veuillez vous connecter."
+
+msgid "We could not create your account. Please check the form and try again."
+msgstr "Impossible de créer le compte. Vérifiez le formulaire et réessayez."
+
+msgid "Your profile has been updated."
+msgstr "Votre profil a été mis à jour."
+
+msgid "The profile could not be saved. Please, try again."
+msgstr "Le profil n'a pas pu être enregistré. Veuillez réessayer."
+
+msgid "You have been signed out."
+msgstr "Vous êtes déconnecté."
+
+msgid "The task has been saved."
+msgstr "La tâche a été enregistrée."
+
+msgid "The task could not be saved. Please, try again."
+msgstr "La tâche n'a pas pu être enregistrée. Veuillez réessayer."
+
+msgid "The task has been deleted."
+msgstr "La tâche a été supprimée."
+
+msgid "The task could not be deleted. Please, try again."
+msgstr "La tâche n'a pas pu être supprimée. Veuillez réessayer."
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "In progress"
+msgstr "En cours"
+
+msgid "Completed"
+msgstr "Terminée"
+
+msgid "Tasks"
+msgstr "Tâches"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Bicycles"
+msgstr "Vélos"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgid "Access"
+msgstr "Accès"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Create an account"
+msgstr "Créer un compte"
+
+msgid "Registration"
+msgstr "Inscription"
+
+msgid "Preferred language"
+msgstr "Langue préférée"
+
+msgid "Register"
+msgstr "S'inscrire"
+
+msgid "Already have an account? Sign in"
+msgstr "Vous avez déjà un compte ? Connectez-vous"
+
+msgid "Your data"
+msgstr "Vos données"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "New task"
+msgstr "Nouvelle tâche"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Due date"
+msgstr "Date limite"
+
+msgid "Modified"
+msgstr "Modifié"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "View"
+msgstr "Voir"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Voulez-vous vraiment supprimer # {0} ?"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} sur {{pages}}, affichage de {{current}} enregistrement(s) sur {{count}} au total"
+
+msgid "first"
+msgstr "première"
+
+msgid "previous"
+msgstr "précédente"
+
+msgid "next"
+msgstr "suivante"
+
+msgid "last"
+msgstr "dernière"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Created"
+msgstr "Créé"
+
+msgid "List tasks"
+msgstr "Liste des tâches"
+
+msgid "Edit task"
+msgstr "Modifier la tâche"
+
+msgid "Submit"
+msgstr "Envoyer"
+
+msgid "Spanish"
+msgstr "Espagnol"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Portuguese"
+msgstr "Portugais"
+
+msgid "French"
+msgstr "Français"
+
+msgid "Password is required."
+msgstr "Le mot de passe est obligatoire."
+
+msgid "Leave blank to keep the current password."
+msgstr "Laisser vide pour conserver le mot de passe actuel."
+
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+msgid "The user has been saved."
+msgstr "L'utilisateur a été enregistré."
+
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être enregistré. Veuillez réessayer."
+
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimé. Veuillez réessayer."
+
+msgid "List Users"
+msgstr "Liste des utilisateurs"

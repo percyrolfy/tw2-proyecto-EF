@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: app_ef\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "You must sign in to continue."
+msgstr "You must sign in to continue."
+
+msgid "Welcome, {0}."
+msgstr "Welcome, {0}."
+
+msgid "Invalid email or password."
+msgstr "Invalid email or password."
+
+msgid "Your account was created. Please sign in."
+msgstr "Your account was created. Please sign in."
+
+msgid "We could not create your account. Please check the form and try again."
+msgstr "We could not create your account. Please check the form and try again."
+
+msgid "Your profile has been updated."
+msgstr "Your profile has been updated."
+
+msgid "The profile could not be saved. Please, try again."
+msgstr "The profile could not be saved. Please, try again."
+
+msgid "You have been signed out."
+msgstr "You have been signed out."
+
+msgid "The task has been saved."
+msgstr "The task has been saved."
+
+msgid "The task could not be saved. Please, try again."
+msgstr "The task could not be saved. Please, try again."
+
+msgid "The task has been deleted."
+msgstr "The task has been deleted."
+
+msgid "The task could not be deleted. Please, try again."
+msgstr "The task could not be deleted. Please, try again."
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "In progress"
+msgstr "In progress"
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid "Tasks"
+msgstr "Tasks"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Bicycles"
+msgstr "Bicycles"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Sign out"
+msgstr "Sign out"
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Access"
+msgstr "Access"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Create an account"
+msgstr "Create an account"
+
+msgid "Registration"
+msgstr "Registration"
+
+msgid "Preferred language"
+msgstr "Preferred language"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Already have an account? Sign in"
+msgstr "Already have an account? Sign in"
+
+msgid "Your data"
+msgstr "Your data"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "New task"
+msgstr "New task"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Due date"
+msgstr "Due date"
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "View"
+msgstr "View"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Are you sure you want to delete # {0}?"
+
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+
+msgid "first"
+msgstr "first"
+
+msgid "previous"
+msgstr "previous"
+
+msgid "next"
+msgstr "next"
+
+msgid "last"
+msgstr "last"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "List tasks"
+msgstr "List tasks"
+
+msgid "Edit task"
+msgstr "Edit task"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Spanish"
+msgstr "Spanish"
+
+msgid "English"
+msgstr "English"
+
+msgid "Portuguese"
+msgstr "Portuguese"
+
+msgid "French"
+msgstr "French"
+
+msgid "Password is required."
+msgstr "Password is required."
+
+msgid "Leave blank to keep the current password."
+msgstr "Leave blank to keep the current password."
+
+msgid "Add User"
+msgstr "Add User"
+
+msgid "Edit User"
+msgstr "Edit User"
+
+msgid "The user has been saved."
+msgstr "The user has been saved."
+
+msgid "The user could not be saved. Please, try again."
+msgstr "The user could not be saved. Please, try again."
+
+msgid "The user has been deleted."
+msgstr "The user has been deleted."
+
+msgid "The user could not be deleted. Please, try again."
+msgstr "The user could not be deleted. Please, try again."
+
+msgid "List Users"
+msgstr "List Users"

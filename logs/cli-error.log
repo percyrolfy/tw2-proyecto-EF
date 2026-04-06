@@ -1,0 +1,31 @@
+2026-04-02 03:44:11 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /home/live/cakephp/entregablefinal/entregablefinal/app_ef/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 354
+Stack Trace:
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:165
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:71
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:98
+- CORE/src/TestSuite/MiddlewareDispatcher.php:154
+- CORE/src/TestSuite/IntegrationTestTrait.php:515
+- CORE/src/TestSuite/IntegrationTestTrait.php:417
+- ROOT/tests/TestCase/Controller/PagesControllerTest.php:94
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestCase.php:1332
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestCase.php:519
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestRunner/TestRunner.php:99
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestCase.php:359
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestSuite.php:374
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestSuite.php:374
+- ROOT/vendor/phpunit/phpunit/src/Framework/TestSuite.php:374
+- ROOT/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:64
+- ROOT/vendor/phpunit/phpunit/src/TextUI/Application.php:229
+- ROOT/vendor/phpunit/phpunit/phpunit:104
+- [main]:
+
+Request URL: /pages/home

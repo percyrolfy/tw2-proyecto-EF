@@ -1,0 +1,77 @@
+{
+    "name": "cakephp/bake",
+    "description": "Bake plugin for CakePHP",
+    "license": "MIT",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "bake",
+        "dev",
+        "cli"
+    ],
+    "authors": [
+        {
+            "name": "CakePHP Community",
+            "homepage": "https://github.com/cakephp/bake/graphs/contributors"
+        }
+    ],
+    "homepage": "https://github.com/cakephp/bake",
+    "support": {
+        "issues": "https://github.com/cakephp/bake/issues",
+        "forum": "https://stackoverflow.com/tags/cakephp",
+        "source": "https://github.com/cakephp/bake"
+    },
+    "require": {
+        "php": ">=8.1",
+        "brick/varexporter": "^0.6.0 || ^0.7.0",
+        "cakephp/cakephp": "^5.1",
+        "cakephp/twig-view": "^2.0.2",
+        "nikic/php-parser": "^5.0.0"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "^5.0.0",
+        "cakephp/debug_kit": "^5.0.0",
+        "phpunit/phpunit": "^10.5.40 || ^11.5.20 || ^12.2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Authentication\\": "tests/test_app/Plugin/Authentication/src/",
+            "Authorization\\": "tests/test_app/Plugin/Authorization/src/",
+            "BakeTest\\": "tests/test_app/Plugin/BakeTest/src/",
+            "Bake\\Test\\": "tests/",
+            "Bake\\Test\\App\\": "tests/test_app/App/",
+            "Company\\Pastry\\": "tests/test_app/Plugin/Company/Pastry/src/",
+            "FixtureTest\\": "tests/test_app/App/Plugin/FixtureTest/src/",
+            "TestBake\\": "tests/test_app/Plugin/TestBake/src/",
+            "TestBakeTheme\\": "tests/test_app/Plugin/TestBakeTheme/src/",
+            "TestTemplate\\": "tests/test_app/App/Plugin/TestTemplate/src/",
+            "TestTest\\": "tests/test_app/App/Plugin/TestTest/src/",
+            "WithBakeSubFolder\\": "tests/test_app/Plugin/WithBakeSubFolder/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "cakephp/plugin-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "check": [
+            "@test",
+            "@cs-check"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "phpstan": "tools/phpstan analyse",
+        "stan": "@phpstan",
+        "stan-baseline": "tools/phpstan --generate-baseline",
+        "stan-setup": "phive install",
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-clover=clover.xml"
+    }
+}

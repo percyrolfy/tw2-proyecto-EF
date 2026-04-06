@@ -1,0 +1,485 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2026-04-06 11:58+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/AppController.php:76
+msgid "You must sign in to continue."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:50
+msgid "La bicicleta fue guardada."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:54
+msgid "No se pudo guardar la bicicleta. Intenta nuevamente."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:72
+msgid "La bicicleta fue actualizada."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:76
+msgid "No se pudo actualizar la bicicleta. Intenta nuevamente."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:93
+msgid "La bicicleta fue eliminada."
+msgstr ""
+
+#: ./src/Controller/BicicletasController.php:95
+msgid "No se pudo eliminar la bicicleta. Intenta nuevamente."
+msgstr ""
+
+#: ./src/Controller/TasksController.php:66
+#: ./src/Controller/TasksController.php:94
+msgid "The task has been saved."
+msgstr ""
+
+#: ./src/Controller/TasksController.php:70
+#: ./src/Controller/TasksController.php:98
+msgid "The task could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/TasksController.php:118
+msgid "The task has been deleted."
+msgstr ""
+
+#: ./src/Controller/TasksController.php:120
+msgid "The task could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:65
+msgid "Welcome, {0}."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:69
+msgid "Invalid email or password."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:91
+msgid "Your account was created. Please sign in."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:95
+msgid "We could not create your account. Please check the form and try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:120
+msgid "Your profile has been updated."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:124
+msgid "The profile could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:137
+msgid "You have been signed out."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:179
+#: ./src/Controller/UsersController.php:205
+msgid "The user has been saved."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:183
+#: ./src/Controller/UsersController.php:209
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:226
+msgid "The user has been deleted."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:228
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Model/Table/TasksTable.php:31
+msgid "Pending"
+msgstr ""
+
+#: ./src/Model/Table/TasksTable.php:32
+msgid "In progress"
+msgstr ""
+
+#: ./src/Model/Table/TasksTable.php:33
+msgid "Completed"
+msgstr ""
+
+#: ./src/Model/Table/UsersTable.php:92
+msgid "Password is required."
+msgstr ""
+
+#: ./templates/Bicicletas/add.php:10
+#: ./templates/Bicicletas/edit.php:15
+#: ./templates/Bicicletas/view.php:16
+msgid "Volver"
+msgstr ""
+
+#: ./templates/Bicicletas/add.php:17
+#: ./templates/Bicicletas/index.php:8
+msgid "Nueva Bicicleta"
+msgstr ""
+
+#: ./templates/Bicicletas/add.php:26
+#: ./templates/Bicicletas/edit.php:31
+msgid "Guardar"
+msgstr ""
+
+#: ./templates/Bicicletas/edit.php:11
+#: ./templates/Bicicletas/index.php:38
+#: ./templates/Bicicletas/view.php:12
+msgid "Eliminar"
+msgstr ""
+
+#: ./templates/Bicicletas/edit.php:13
+#: ./templates/Bicicletas/index.php:42
+#: ./templates/Bicicletas/view.php:14
+msgid "¿Seguro que deseas eliminar # {0}?"
+msgstr ""
+
+#: ./templates/Bicicletas/edit.php:22
+msgid "Editar Bicicleta"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:9
+msgid "Bicicletas"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:21
+msgid "Acciones"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:35
+msgid "Ver"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:36
+#: ./templates/Bicicletas/view.php:10
+msgid "Editar"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:53
+#: ./templates/Tasks/index.php:50
+#: ./templates/Users/index.php:55
+msgid "first"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:54
+#: ./templates/Tasks/index.php:51
+#: ./templates/Users/index.php:56
+msgid "previous"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:56
+#: ./templates/Tasks/index.php:53
+#: ./templates/Users/index.php:58
+msgid "next"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:57
+#: ./templates/Tasks/index.php:54
+#: ./templates/Users/index.php:59
+msgid "last"
+msgstr ""
+
+#: ./templates/Bicicletas/index.php:59
+#: ./templates/Tasks/index.php:56
+#: ./templates/Users/index.php:61
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:24
+msgid "Tipo"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:28
+msgid "Material"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:32
+msgid "Tamaño rueda"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:36
+msgid "Modelo"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:40
+msgid "Precio"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:44
+msgid "Fecha registro"
+msgstr ""
+
+#: ./templates/Bicicletas/view.php:48
+msgid "ID"
+msgstr ""
+
+#: ./templates/Tasks/add.php:11
+#: ./templates/Tasks/edit.php:16
+#: ./templates/Tasks/view.php:17
+msgid "List tasks"
+msgstr ""
+
+#: ./templates/Tasks/add.php:18
+#: ./templates/Tasks/index.php:9
+msgid "New task"
+msgstr ""
+
+#: ./templates/Tasks/add.php:19
+#: ./templates/Tasks/edit.php:24
+#: ./templates/Tasks/index.php:16
+#: ./templates/Tasks/view.php:25
+msgid "Title"
+msgstr ""
+
+#: ./templates/Tasks/add.php:20
+#: ./templates/Tasks/edit.php:25
+#: ./templates/Tasks/view.php:29
+msgid "Description"
+msgstr ""
+
+#: ./templates/Tasks/add.php:24
+#: ./templates/Tasks/edit.php:29
+#: ./templates/Tasks/index.php:17
+#: ./templates/Tasks/view.php:33
+msgid "Status"
+msgstr ""
+
+#: ./templates/Tasks/add.php:28
+#: ./templates/Tasks/edit.php:32
+#: ./templates/Tasks/index.php:18
+#: ./templates/Tasks/view.php:37
+msgid "Due date"
+msgstr ""
+
+#: ./templates/Tasks/add.php:32
+#: ./templates/Tasks/edit.php:36
+#: ./templates/Users/add.php:38
+#: ./templates/Users/edit.php:46
+msgid "Submit"
+msgstr ""
+
+#: ./templates/Tasks/edit.php:12
+#: ./templates/Tasks/index.php:35
+#: ./templates/Tasks/view.php:13
+#: ./templates/Users/edit.php:12
+#: ./templates/Users/index.php:40
+msgid "Delete"
+msgstr ""
+
+#: ./templates/Tasks/edit.php:14
+#: ./templates/Tasks/index.php:39
+#: ./templates/Tasks/view.php:15
+#: ./templates/Users/edit.php:14
+#: ./templates/Users/index.php:44
+#: ./templates/Users/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/Tasks/edit.php:23
+msgid "Edit task"
+msgstr ""
+
+#: ./templates/Tasks/index.php:10
+#: ./templates/layout/default.php:45
+msgid "Tasks"
+msgstr ""
+
+#: ./templates/Tasks/index.php:19
+#: ./templates/Tasks/view.php:45
+#: ./templates/Users/view.php:50
+msgid "Modified"
+msgstr ""
+
+#: ./templates/Tasks/index.php:20
+#: ./templates/Users/add.php:10
+#: ./templates/Users/edit.php:10
+#: ./templates/Users/index.php:22
+#: ./templates/Users/view.php:10
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Tasks/index.php:32
+#: ./templates/Users/index.php:37
+msgid "View"
+msgstr ""
+
+#: ./templates/Tasks/index.php:33
+#: ./templates/Tasks/view.php:11
+#: ./templates/Users/index.php:38
+msgid "Edit"
+msgstr ""
+
+#: ./templates/Tasks/view.php:41
+#: ./templates/Users/view.php:46
+msgid "Created"
+msgstr ""
+
+#: ./templates/Users/add.php:11
+#: ./templates/Users/edit.php:16
+#: ./templates/Users/view.php:13
+msgid "List Users"
+msgstr ""
+
+#: ./templates/Users/add.php:18
+msgid "Add User"
+msgstr ""
+
+#: ./templates/Users/add.php:27
+#: ./templates/Users/edit.php:36
+#: ./templates/Users/profile.php:7
+#: ./templates/Users/register.php:7
+msgid "Spanish"
+msgstr ""
+
+#: ./templates/Users/add.php:28
+#: ./templates/Users/edit.php:37
+#: ./templates/Users/profile.php:8
+#: ./templates/Users/register.php:8
+msgid "English"
+msgstr ""
+
+#: ./templates/Users/add.php:29
+#: ./templates/Users/edit.php:38
+#: ./templates/Users/profile.php:9
+#: ./templates/Users/register.php:9
+msgid "Portuguese"
+msgstr ""
+
+#: ./templates/Users/add.php:30
+#: ./templates/Users/edit.php:39
+#: ./templates/Users/profile.php:10
+#: ./templates/Users/register.php:10
+msgid "French"
+msgstr ""
+
+#: ./templates/Users/add.php:32
+#: ./templates/Users/edit.php:41
+#: ./templates/Users/profile.php:24
+#: ./templates/Users/register.php:26
+msgid "Preferred language"
+msgstr ""
+
+#: ./templates/Users/edit.php:23
+#: ./templates/Users/view.php:11
+msgid "Edit User"
+msgstr ""
+
+#: ./templates/Users/edit.php:30
+#: ./templates/Users/login.php:14
+msgid "Password"
+msgstr ""
+
+#: ./templates/Users/edit.php:31
+msgid "Leave blank to keep the current password."
+msgstr ""
+
+#: ./templates/Users/index.php:8
+#: ./templates/Users/view.php:14
+msgid "New User"
+msgstr ""
+
+#: ./templates/Users/index.php:9
+#: ./templates/layout/default.php:48
+msgid "Users"
+msgstr ""
+
+#: ./templates/Users/login.php:8
+#: ./templates/Users/login.php:16
+msgid "Sign in"
+msgstr ""
+
+#: ./templates/Users/login.php:12
+msgid "Access"
+msgstr ""
+
+#: ./templates/Users/login.php:13
+#: ./templates/Users/register.php:21
+msgid "Email"
+msgstr ""
+
+#: ./templates/Users/login.php:19
+#: ./templates/Users/register.php:14
+msgid "Create an account"
+msgstr ""
+
+#: ./templates/Users/profile.php:14
+#: ./templates/layout/default.php:46
+msgid "Profile"
+msgstr ""
+
+#: ./templates/Users/profile.php:18
+msgid "Your data"
+msgstr ""
+
+#: ./templates/Users/profile.php:27
+msgid "Save"
+msgstr ""
+
+#: ./templates/Users/register.php:18
+msgid "Registration"
+msgstr ""
+
+#: ./templates/Users/register.php:30
+msgid "Register"
+msgstr ""
+
+#: ./templates/Users/register.php:33
+msgid "Already have an account? Sign in"
+msgstr ""
+
+#: ./templates/Users/view.php:12
+msgid "Delete User"
+msgstr ""
+
+#: ./templates/Users/view.php:22
+msgid "Nombre"
+msgstr ""
+
+#: ./templates/Users/view.php:26
+msgid "Apellido"
+msgstr ""
+
+#: ./templates/Users/view.php:30
+msgid "Correo"
+msgstr ""
+
+#: ./templates/Users/view.php:34
+msgid "Lenguaje"
+msgstr ""
+
+#: ./templates/Users/view.php:38
+msgid "Id"
+msgstr ""
+
+#: ./templates/Users/view.php:42
+msgid "Edad"
+msgstr ""
+
+#: ./templates/layout/default.php:47
+msgid "Bicycles"
+msgstr ""
+
+#: ./templates/layout/default.php:49
+msgid "Sign out"
+msgstr ""
+
+#: ./templates/layout/error.php:36
+msgid "Back"
+msgstr ""
+
