@@ -9,7 +9,7 @@ Permite registro de usuarios, autenticación, gestión de tareas y soporte multi
 
 - 👤 Registro e inicio de sesión de usuarios  
 - 🌐 Perfil con idioma configurable:
-  - Español, Inglés, Chino Mandarín, Hindi, Árabe, Francés, Ruso, Portugués, Alemán, Japonés  
+  - Español, Inglés, Francés, Portugués, 
 - ✅ CRUD de tareas (crear, ver, editar, eliminar)  
 - 🔎 Filtros por:
   - estado  
