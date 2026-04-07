@@ -1,58 +1,262 @@
-# CakePHP Application Skeleton
+# 📝 App de Tareas - CakePHP 5
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=5.x)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%208-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+Aplicación web de gestión de tareas por usuario desarrollada con **CakePHP 5**.  
+Permite registro de usuarios, autenticación, gestión de tareas y soporte multilingüe.
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
+---
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+# 🌍 Características principales
 
-## Installation
+- 👤 Registro e inicio de sesión de usuarios  
+- 🌐 Perfil con idioma configurable:
+  - Español, Inglés, Chino Mandarín, Hindi, Árabe, Francés, Ruso, Portugués, Alemán, Japonés  
+- ✅ CRUD de tareas (crear, ver, editar, eliminar)  
+- 🔎 Filtros por:
+  - estado  
+  - fecha límite  
+  - texto  
+- 🌎 Descripciones bilingües por tarea  
+- 🔐 Control de acceso por usuario  
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+---
 
-If Composer is installed globally, run
+# ⚙️ Requisitos
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+- PHP 8.2 o superior  
+- Composer  
+- MariaDB o MySQL 5.7+  
+- Apache con mod_rewrite o servidor integrado de CakePHP  
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+---
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+# 🚀 Instalación
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+## 1️⃣ Clonar el repositorio
 
-```bash
-bin/cake server -p 8765
-```
+git clone https://github.com/percyrolfy/tw2-proyecto-EF.git  
+cd tw2-proyecto-EF  
 
-Then visit `http://localhost:8765` to see the welcome page.
+---
 
-## Demo app
+## 2️⃣ Instalar dependencias
 
-Check out the [5.x-demo branch](https://github.com/cakephp/app/tree/5.x-demo), which contains demo migrations and a seeder.
-See the [README](https://github.com/cakephp/app/blob/5.x-demo/README.md) on how to get it running.
+composer install  
 
-## Update
+---
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
+## 3️⃣ Configurar base de datos
 
-## Configuration
+Copiar archivo de configuración:
 
-Read and edit the environment specific `config/app_local.php` and set up the
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
+cp config/app_local.example.php config/app_local.php  
 
-## Layout
+Editar credenciales en:
 
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+Datasources → host, username, password, database  
+
+---
+
+## 4️⃣ Crear base de datos
+
+Crear una base vacía en MariaDB/MySQL.
+
+---
+
+## 5️⃣ Aplicar esquema
+
+### ✔️ Opción A (Recomendada)
+
+bin/cake migrations migrate  
+
+### ✔️ Opción B (Manual)
+
+Ejecutar:
+
+config/schema/entregable_tareas.sql  
+
+---
+
+## 6️⃣ (Opcional) Variables de entorno
+
+cp config/.env.example config/.env  
+
+---
+
+# ▶️ Ejecución
+
+## 🔹 Servidor CakePHP
+
+bin/cake server -p 8765  
+
+Abrir en navegador:
+
+http://localhost:8765  
+
+---
+
+## 🔹 Apache
+
+Configurar:
+
+DocumentRoot → webroot/  
+
+---
+
+# 🐳 Despliegue con Podman
+
+## 📌 Descripción
+
+Contenerización de la aplicación usando Podman con imagen basada en PHP + Apache.
+
+---
+
+## ⚙️ Tecnologías
+
+- PHP 8.2 + Apache  
+- CakePHP  
+- Podman  
+- Podman Compose  
+- Linux  
+
+---
+
+## 📁 Estructura
+
+devops/  
+├── Dockerfile  
+├── compose.yml  
+└── app_ef/  
+
+---
+
+## 🚀 Implementación
+
+### 1️⃣ Crear carpeta
+
+mkdir ~/devops/  
+cd ~/devops/  
+
+---
+
+### 2️⃣ Copiar aplicación
+
+Colocar proyecto en:
+
+app_ef/  
+
+---
+
+### 3️⃣ Dockerfile
+
+FROM php:8.2-apache
+
+RUN apt-get update && apt-get install -y \
+    libicu-dev \
+    && docker-php-ext-install intl pdo pdo_mysql mysqli
+
+RUN a2enmod rewrite
+
+COPY app_ef/ /var/www/html/
+
+RUN chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html
+
+EXPOSE 80  
+
+---
+
+### 4️⃣ compose.yml
+
+services:  
+  php-app:  
+    image: ef-app  
+    container_name: ef-app  
+    ports:  
+      - "8080:80"  
+    restart: unless-stopped  
+
+---
+
+### 5️⃣ Configuración de red (opcional)
+
+Editar:
+
+sudo nano /etc/containers/containers.conf  
+
+Agregar:
+
+[engine]  
+network_cmd = "host"  
+
+---
+
+### 6️⃣ Construir imagen
+
+podman build -t ef-app .  
+
+---
+
+### 7️⃣ Ejecutar contenedor
+
+podman-compose up  
+
+---
+
+### 8️⃣ Acceso
+
+http://localhost:8080  
+
+---
+
+# 🔍 Comandos útiles
+
+sudo ss -tuln        → Ver puertos  
+podman ps           → Contenedores activos  
+podman logs ef-app  → Logs  
+
+---
+
+# 🛠 Problemas solucionados
+
+- ❌ Error COPY → ✔ ruta corregida  
+- ❌ Falta intl → ✔ instalada  
+- ❌ Error MySQL → ✔ pdo_mysql agregado  
+- ❌ Imagen inexistente → ✔ build ejecutado  
+
+---
+
+# 📊 Base de datos
+
+- users → usuarios  
+- perfiles → idioma, biografía  
+- tareas → tareas por usuario  
+
+---
+
+# 📌 Uso del sistema
+
+- Registro → enlace "Registrar"  
+- Login → `/`  
+- Tareas → gestión individual  
+- Perfil → cambio de idioma  
+- Módulos extra → países, usuarios  
+
+---
+
+# 📄 Documentación
+
+- docs/INFORME_IMRD.md  
+- docs/BITACORA_IA.md  
+- docs/EVIDENCIAS.md  
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto desarrollado para la materia **Tecnología Web II**.
+
+---
+
+# 📜 Licencia
+
+MIT License
