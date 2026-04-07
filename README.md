@@ -31,20 +31,20 @@ Permite registro de usuarios, autenticación, gestión de tareas y soporte multi
 
 #  Instalación
 
-## 1️⃣ Clonar el repositorio
+## 1 Clonar el repositorio
 
 git clone https://github.com/percyrolfy/tw2-proyecto-EF.git  
 cd tw2-proyecto-EF  
 
 ---
 
-## 2️⃣ Instalar dependencias
+## 2 Instalar dependencias
 
 composer install  
 
 ---
 
-## 3️⃣ Configurar base de datos
+## 3 Configurar base de datos
 
 Copiar archivo de configuración:
 
@@ -56,13 +56,13 @@ Datasources → host, username, password, database
 
 ---
 
-## 4️⃣ Crear base de datos
+## 4 Crear base de datos
 
 Crear una base vacía en MariaDB/MySQL.
 
 ---
 
-## 5️⃣ Aplicar esquema
+## 5 Aplicar esquema
 
 ###  Opción A (Recomendada)
 
@@ -76,7 +76,7 @@ config/schema/entregable_tareas.sql
 
 ---
 
-## 6️⃣ (Opcional) Variables de entorno
+## 6 (Opcional) Variables de entorno
 
 cp config/.env.example config/.env  
 
@@ -131,14 +131,14 @@ devops/
 
 ##  Implementación
 
-### 1️ Crear carpeta
+## 11️ Crear carpeta
 
 mkdir ~/devops/  
 cd ~/devops/  
 
 ---
 
-### 2️ Copiar aplicación
+## 22️ Copiar aplicación
 
 Colocar proyecto en:
 
@@ -146,7 +146,7 @@ app_ef/
 
 ---
 
-### 3️⃣ Dockerfile
+### 3 Dockerfile
 
 FROM php:8.2-apache
 
@@ -208,7 +208,7 @@ http://localhost:8080
 
 ---
 
-# 🔍 Comandos útiles
+#  Comandos útiles
 
 sudo ss -tuln        → Ver puertos  
 podman ps           → Contenedores activos  
@@ -216,16 +216,16 @@ podman logs ef-app  → Logs
 
 ---
 
-# 🛠 Problemas solucionados
+#  Problemas solucionados
 
-- ❌ Error COPY → ✔ ruta corregida  
-- ❌ Falta intl → ✔ instalada  
-- ❌ Error MySQL → ✔ pdo_mysql agregado  
-- ❌ Imagen inexistente → ✔ build ejecutado  
+-  Error COPY → ✔ ruta corregida  
+-  Falta intl → ✔ instalada  
+-  Error MySQL → ✔ pdo_mysql agregado  
+-  Imagen inexistente → ✔ build ejecutado  
 
 ---
 
-# 📊 Base de datos
+#  Base de datos
 
 - users → usuarios  
 - perfiles → idioma, biografía  
@@ -233,7 +233,7 @@ podman logs ef-app  → Logs
 
 ---
 
-# 📌 Uso del sistema
+#  Uso del sistema
 
 - Registro → enlace "Registrar"  
 - Login → `/`  
@@ -243,7 +243,7 @@ podman logs ef-app  → Logs
 
 ---
 
-# 📄 Documentación
+#  Documentación
 
 - docs/INFORME_IMRD.md  
 - docs/BITACORA_IA.md  
@@ -251,12 +251,12 @@ podman logs ef-app  → Logs
 
 ---
 
-# 👨‍💻 Autor
+#  Autor
 
 Proyecto desarrollado para la materia **Tecnología Web II**.
 
 ---
 
-# 📜 Licencia
+#  Licencia
 
-MIT License
+MIT Licencia (como la pagina oficial de CakePHP).
