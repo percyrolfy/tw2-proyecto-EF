@@ -146,7 +146,7 @@ app_ef/
 
 ---
 
-### 3 Dockerfile
+## 3 Dockerfile
 
 FROM php:8.2-apache
 
@@ -165,7 +165,7 @@ EXPOSE 80
 
 ---
 
-### 4️⃣ compose.yml
+## 4 compose.yml
 
 services:  
   php-app:  
@@ -177,7 +177,7 @@ services:
 
 ---
 
-### 5️⃣ Configuración de red (opcional)
+## 55️ Configuración de red (opcional)
 
 Editar:
 
@@ -190,19 +190,19 @@ network_cmd = "host"
 
 ---
 
-### 6️⃣ Construir imagen
+##6️6 Construir imagen
 
 podman build -t ef-app .  
 
 ---
 
-### 7️⃣ Ejecutar contenedor
+##7️7 Ejecutar contenedor
 
 podman-compose up  
 
 ---
 
-### 8️⃣ Acceso
+##8️8 Acceso
 
 http://localhost:8080  
 
