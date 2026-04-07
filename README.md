@@ -1,26 +1,26 @@
-# 📝 App de Tareas - CakePHP 5
+#  App de Tareas - CakePHP 5
 
 Aplicación web de gestión de tareas por usuario desarrollada con **CakePHP 5**.  
 Permite registro de usuarios, autenticación, gestión de tareas y soporte multilingüe.
 
 ---
 
-# 🌍 Características principales
+#  Características principales
 
-- 👤 Registro e inicio de sesión de usuarios  
-- 🌐 Perfil con idioma configurable:
+-  Registro e inicio de sesión de usuarios  
+-  Perfil con idioma configurable:
   - Español, Inglés, Francés, Portugués, 
-- ✅ CRUD de tareas (crear, ver, editar, eliminar)  
-- 🔎 Filtros por:
+-  CRUD de tareas (crear, ver, editar, eliminar)  
+-  Filtros por:
   - estado  
   - fecha límite  
   - texto  
-- 🌎 Descripciones bilingües por tarea  
-- 🔐 Control de acceso por usuario  
+-  Descripciones bilingües por tarea  
+-  Control de acceso por usuario  
 
 ---
 
-# ⚙️ Requisitos
+#  Requisitos
 
 - PHP 8.2 o superior  
 - Composer  
@@ -29,7 +29,7 @@ Permite registro de usuarios, autenticación, gestión de tareas y soporte multi
 
 ---
 
-# 🚀 Instalación
+#  Instalación
 
 ## 1️⃣ Clonar el repositorio
 
@@ -64,11 +64,11 @@ Crear una base vacía en MariaDB/MySQL.
 
 ## 5️⃣ Aplicar esquema
 
-### ✔️ Opción A (Recomendada)
+###  Opción A (Recomendada)
 
 bin/cake migrations migrate  
 
-### ✔️ Opción B (Manual)
+###  Opción B (Manual)
 
 Ejecutar:
 
@@ -82,9 +82,9 @@ cp config/.env.example config/.env
 
 ---
 
-# ▶️ Ejecución
+#  Ejecución
 
-## 🔹 Servidor CakePHP
+##  Servidor CakePHP
 
 bin/cake server -p 8765  
 
@@ -94,7 +94,7 @@ http://localhost:8765
 
 ---
 
-## 🔹 Apache
+##  Apache
 
 Configurar:
 
@@ -102,15 +102,15 @@ DocumentRoot → webroot/
 
 ---
 
-# 🐳 Despliegue con Podman
+#  Despliegue con Podman
 
-## 📌 Descripción
+##  Descripción
 
 Contenerización de la aplicación usando Podman con imagen basada en PHP + Apache.
 
 ---
 
-## ⚙️ Tecnologías
+##  Tecnologías
 
 - PHP 8.2 + Apache  
 - CakePHP  
@@ -120,7 +120,7 @@ Contenerización de la aplicación usando Podman con imagen basada en PHP + Apac
 
 ---
 
-## 📁 Estructura
+##  Estructura
 
 devops/  
 ├── Dockerfile  
@@ -129,16 +129,16 @@ devops/
 
 ---
 
-## 🚀 Implementación
+##  Implementación
 
-### 1️⃣ Crear carpeta
+### 1️ Crear carpeta
 
 mkdir ~/devops/  
 cd ~/devops/  
 
 ---
 
-### 2️⃣ Copiar aplicación
+### 2️ Copiar aplicación
 
 Colocar proyecto en:
 
