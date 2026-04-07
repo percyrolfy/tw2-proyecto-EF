@@ -1,0 +1,7 @@
+services:
+  php-app:
+    image: ef-app
+    container_name: ef-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
